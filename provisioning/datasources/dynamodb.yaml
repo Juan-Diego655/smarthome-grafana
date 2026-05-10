@@ -1,0 +1,14 @@
+apiVersion: 1
+
+datasources:
+  - name: DynamoDB
+    type: grafana-dynamodb-datasource
+    access: proxy
+    isDefault: true
+    jsonData:
+      defaultRegion: us-east-1
+      authType: keys
+    secureJsonData:
+      accessKey: ${AWS_ACCESS_KEY_ID}
+      secretKey: ${AWS_SECRET_ACCESS_KEY}
+    editable: false
