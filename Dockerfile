@@ -1,4 +1,4 @@
-FROM grafana/grafana:10.4.2
+FROM grafana/grafana:11.4.0
 
 ENV GF_SECURITY_ALLOW_EMBEDDING=true
 ENV GF_AUTH_ANONYMOUS_ENABLED=true
