@@ -7,3 +7,6 @@ datasources:
     isDefault: true
     version: 1
     editable: true
+    jsonData:
+      allowedHosts:
+        - https://p6exxp1jah.execute-api.us-east-1.amazonaws.com
