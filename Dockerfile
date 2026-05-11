@@ -1,10 +1,9 @@
-FROM grafana/grafana:11.4.0
+FROM grafana/grafana:11.6.0
 
 ENV GF_SECURITY_ALLOW_EMBEDDING=true
 ENV GF_AUTH_ANONYMOUS_ENABLED=true
 ENV GF_AUTH_ANONYMOUS_ORG_ROLE=Viewer
 ENV GF_INSTALL_PLUGINS=yesoreyeram-infinity-datasource
-ENV GF_PLUGINS_ALLOW_LOADING_UNSIGNED_PLUGINS=yesoreyeram-infinity-datasource
 ENV GF_SECURITY_ADMIN_PASSWORD=smarthome2026
 ENV GF_SERVER_ROOT_URL=https://smarthome-grafana.onrender.com
 
